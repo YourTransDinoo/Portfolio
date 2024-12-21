@@ -1,0 +1,62 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px; /* Increased border-radius for more rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.Experience {
+    background-color: #071524;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.Experience {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.experience-container {
+    display: flex;
+    width: 100%;
+}
+
+#work-experience, #education-experience {
+    width: 45%; /* Each section will take up 45% of the width */
+    padding: 10px;
+}
+
+#work-experience {
+    margin-right: 5%; /* Add some space between work and education sections */
+}
+
+.job, .school {
+    margin-bottom: 20px;
+}
+
+
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #040b18, #092047, #021a5a)
+
+}

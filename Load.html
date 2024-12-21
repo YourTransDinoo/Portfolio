@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Loadstylesheet.css">
+</head>
+<body>
+
+    <div class="loader">
+    <span class="loader-text">loading</span>
+        <span class="load"></span>
+    </div>
+
+
+<a href="Index.html" class="btn" style="display: none;">Go to the website!</a>
+<script>
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            document.querySelector('.loader').style.display = 'none';
+            document.querySelector('.btn').style.display = 'block';
+        }, 5000);
+    });
+</script>
+</body>
+</html>
